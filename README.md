@@ -1,6 +1,8 @@
 # **Hmk5-ADM**
 > Last hmk for Adm course
-> Group 23
+> Group 23: Leonardo Placidi, Eleftheria Tetoula Tsonga, Nicolò Petrungaro. 
+  
+
 This repository is composed of:
 >> 0) this README and a file gitignore.
 >> 1) **main.ipynb** where you find all the procedures to solve the hmk.
