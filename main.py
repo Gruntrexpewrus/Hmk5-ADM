@@ -358,7 +358,7 @@ class Graph(object):
         
     def visualization2(self):
         f = self.functionality2()
-        if f[0] == []:
+        if f[0] == [] or f[0] == None:
             return("There is no path")
         if type(f[0]) == str:
             # if there is no path
@@ -409,7 +409,7 @@ class Graph(object):
         # create a new graph for plotting
         I = nx.Graph()
         f = self.functionality3()
-        if f[0] == []:
+        if f[0] == [] or f[0] == None:
             return 'There is no path ordered'
         if type(f[0]) == str:
             # if there is no path 
@@ -456,7 +456,7 @@ class Graph(object):
         # create a new graph for plotting
         I = nx.Graph()
         f = self.functionality4()
-        if f[0]==[]:
+        if f[0]==[] or f[0] == None:
             return 'There is no path, probably disconnected nodes'
         if type(f[0]) == str:
             return f[0]
